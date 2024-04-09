@@ -1,0 +1,385 @@
+h1 {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: -90px;
+  font-size: 2rem;
+  color: orange;
+}
+h1:hover {
+  color: black;
+}
+.parentofparent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -90px;
+}
+.progressparent {
+  border-radius: 0px;
+  display: flex;
+  row-gap: 20px;
+  flex-direction: column;
+  width: 410px;
+  margin-left: 80px;
+  margin-top: 160px;
+  height: 400px;
+  border-radius: 0px;
+  background: #fefbf1;
+  box-shadow: inset 9px 9px 9px #b4b2ab, inset -9px -9px 9px #ffffff;
+}
+.progresschild {
+  display: flex;
+  /* flex-direction: row; */
+  /* margin-top: 10px; */
+}
+.progresschild img {
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.progresschild h4 {
+  margin-top: 40px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.loader {
+  height: 10px;
+  width: 350px;
+  border: 2px solid orange;
+  margin-top: 70px;
+  margin-left: -100px;
+  border-radius: 5px;
+}
+.loaderfill {
+  height: 8px;
+  width: 260px;
+  /* border: 2px solid rgb(0, 0, 0); */
+  margin-top: -1px;
+  background-color: orange;
+  border-radius: 3px;
+  /* margin-left: -100px; */
+}
+.loaderhtml {
+  height: 10px;
+  width: 350px;
+  border: 2px solid orange;
+  margin-top: 70px;
+  margin-left: -90px;
+  border-radius: 5px;
+}
+.loaderfillhtml {
+  height: 8px;
+  width: 285px;
+  /* border: 2px solid rgb(0, 0, 0); */
+  margin-top: -1px;
+  background-color: orange;
+  border-radius: 3px;
+  /* margin-left: -100px; */
+}
+.loaderjs {
+  height: 10px;
+  width: 350px;
+  border: 2px solid orange;
+  margin-top: 70px;
+  margin-left: -120px;
+  border-radius: 5px;
+}
+.loaderfilljs {
+  height: 8px;
+  width: 225px;
+  /* border: 2px solid rgb(0, 0, 0); */
+  margin-top: -1px;
+  background-color: orange;
+  border-radius: 3px;
+  /* margin-left: -100px; */
+}
+.loadercss {
+  height: 10px;
+  width: 350px;
+  border: 2px solid orange;
+  margin-top: 70px;
+  margin-left: -70px;
+  border-radius: 5px;
+}
+.loaderfillcss {
+  height: 8px;
+  width: 260px;
+  /* border: 2px solid rgb(0, 0, 0); */
+  margin-top: -1px;
+  background-color: orange;
+  border-radius: 3px;
+  /* margin-left: -100px; */
+}
+.loaderpy {
+  height: 10px;
+  width: 350px;
+  border: 2px solid orange;
+  margin-top: 70px;
+  margin-left: -100px;
+  border-radius: 5px;
+}
+.loaderfillpy {
+  height: 8px;
+  width: 180px;
+  /* border: 2px solid rgb(0, 0, 0); */
+  margin-top: -1px;
+  background-color: orange;
+  border-radius: 3px;
+  /* margin-left: -100px; */
+}
+
+.loaderc {
+  height: 10px;
+  width: 350px;
+  border: 2px solid orange;
+  margin-top: 70px;
+  margin-left: -95px;
+  border-radius: 5px;
+}
+.loaderfillc {
+  height: 8px;
+  width: 240px;
+  /* border: 2px solid rgb(0, 0, 0); */
+  margin-top: -1px;
+  background-color: orange;
+  border-radius: 3px;
+  /* margin-left: -100px; */
+}
+.loaderps {
+  height: 10px;
+  width: 350px;
+  border: 2px solid orange;
+  margin-top: 70px;
+  margin-left: -120px;
+  border-radius: 5px;
+}
+.loaderfillps {
+  height: 8px;
+  width: 325px;
+  /* border: 2px solid rgb(0, 0, 0); */
+  margin-top: -1px;
+  background-color: orange;
+  border-radius: 3px;
+  /* margin-left: -100px; */
+}
+.loaderae {
+  height: 10px;
+  width: 350px;
+  border: 2px solid orange;
+  margin-top: 70px;
+  margin-left: -130px;
+  border-radius: 5px;
+}
+.loaderfillae {
+  height: 8px;
+  width: 300px;
+  /* border: 2px solid rgb(0, 0, 0); */
+  margin-top: -1px;
+  background-color: orange;
+  border-radius: 3px;
+  /* margin-left: -100px; */
+}
+
+.progresschild h6 {
+  margin-top: 45px;
+  margin-left: -35px;
+  font-weight: bold;
+}
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 20px;
+  }
+  .parentofparent {
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 0px;
+    margin-bottom: 120px;
+    /* margin-bottom: 50px; */
+  }
+  .progressparent {
+    border-radius: 0px;
+    display: flex;
+    /* justify-content: center; */
+    row-gap: 20px;
+    flex-direction: column;
+    width: 200px;
+    margin-left: -120px;
+    margin-top: 110px;
+    height: 250px;
+    column-gap: -50px;
+    border-radius: 0px;
+    background: #fefbf1;
+    box-shadow: inset 9px 9px 9px #fefbf1, inset -9px -9px 9px #fefbf1;
+  }
+
+  .progresschild h4 {
+    margin-top: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 2px;
+    white-space: nowrap;
+  }
+  .loader {
+    height: 10px;
+    width: 270px;
+    border: 2px solid orange;
+    /* margin-top: 70px; */
+    margin-left: 22px;
+    position: absolute;
+    /* border-radius: 5px; */
+  }
+  .loaderfill {
+    position: relative;
+    height: 8px;
+    width: 170px;
+    background-color: orange;
+  }
+  .react h6 {
+    margin-top: 40px;
+    padding-left: 170px;
+    font-weight: bold;
+  }
+  .html h6 {
+    margin-top: 40px;
+    padding-left: 185px;
+    font-weight: bold;
+  }
+  .js h6 {
+    margin-top: 40px;
+    padding-left: 155px;
+    font-weight: bold;
+  }
+  .css h6 {
+    margin-top: 40px;
+    padding-left: 198px;
+    font-weight: bold;
+  }
+  .py h6 {
+    margin-top: 40px;
+    padding-left: 180px;
+    font-weight: bold;
+  }
+  .c h6 {
+    margin-top: 40px;
+    padding-left: 190px;
+    font-weight: bold;
+  }
+  .ps h6 {
+    margin-top: 40px;
+    padding-left: 155px;
+    font-weight: bold;
+  }
+  .ae h6 {
+    margin-top: 40px;
+    padding-left: 140px;
+    font-weight: bold;
+  }
+  .loaderhtml {
+    height: 10px;
+    width: 270px;
+    border: 2px solid orange;
+    /* margin-top: 70px; */
+    margin-left: 22px;
+    position: absolute;
+    /* border-radius: 5px; */
+  }
+  .loaderfillhtml {
+    position: relative;
+    height: 8px;
+    width: 200px;
+    background-color: orange;
+  }
+  .loaderjs {
+    height: 10px;
+    width: 270px;
+    border: 2px solid orange;
+    /* margin-top: 70px; */
+    margin-left: 22px;
+    position: absolute;
+    /* border-radius: 5px; */
+  }
+  .loaderfilljs {
+    position: relative;
+    height: 8px;
+    width: 155px;
+    background-color: orange;
+  }
+  .loadercss {
+    height: 10px;
+    width: 270px;
+    border: 2px solid orange;
+    /* margin-top: 70px; */
+    margin-left: 22px;
+    position: absolute;
+    /* border-radius: 5px; */
+  }
+  .loaderfillcss {
+    position: relative;
+    height: 8px;
+    width: 170px;
+    background-color: orange;
+  }
+  .loaderpy {
+    height: 10px;
+    width: 270px;
+    border: 2px solid orange;
+    /* margin-top: 70px; */
+    margin-left: 22px;
+    position: absolute;
+    /* border-radius: 5px; */
+  }
+  .loaderfillpy {
+    position: relative;
+    height: 8px;
+    width: 140px;
+    background-color: orange;
+  }
+  .loaderc {
+    height: 10px;
+    width: 270px;
+    border: 2px solid orange;
+    /* margin-top: 70px; */
+    margin-left: 22px;
+    position: absolute;
+    /* border-radius: 5px; */
+  }
+  .loaderfillc {
+    position: relative;
+    height: 8px;
+    width: 155px;
+    background-color: orange;
+  }
+  .loaderps {
+    height: 10px;
+    width: 270px;
+    border: 2px solid orange;
+    /* margin-top: 70px; */
+    margin-left: 22px;
+    position: absolute;
+    /* border-radius: 5px; */
+  }
+  .loaderfillps {
+    position: relative;
+    height: 8px;
+    width: 255px;
+    background-color: orange;
+  }
+  .loaderae {
+    height: 10px;
+    width: 270px;
+    border: 2px solid orange;
+    /* margin-top: 70px; */
+    margin-left: 22px;
+    position: absolute;
+    /* border-radius: 5px; */
+  }
+  .loaderfillae {
+    position: relative;
+    height: 8px;
+    width: 240px;
+    background-color: orange;
+  }
+}
